@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background: #f9f5f2;
+   
+   
+}
+
+.parent-container{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 90vw;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom:65px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+}
+.firstparent{
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+span{
+    color: red;
+}
+.para{
+    padding-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 90px;
+    font-size: 15px;
+
+}
+.button{
+    display: grid;
+    margin-bottom: 55px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn1{
+    width:36vw;
+    height: 10vh;
+    background: red;
+    color: white;
+    border: none;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+.btn2{
+    width: 36vw;
+    height: 10vh;
+    background: white;
+    color: red;
+    border: 1px solid red;
+    margin-left: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.secondparent{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+     text-align: center;
+    margin-bottom: 20px; 
+}
+.first-child{
+    color: red;
+    margin-top: 35px;
+
+}
+.second-child{
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+.thirdparent{
+    margin-left: 40px;
+}
+
+.leftbar{
+    width: 18vw;
+    height: 9vh;
+    background: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#Zuri{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.para{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.link{
+    color: red;
+
+
+}
+.empty{
+    width: 100vw;
+    height: 8vh;
+    background: white;
+    margin-top: 50px;
+}
+.fourthparent{
+    margin-left: 40px;
+
+}
+.second-nav{
+    width: 19vw;
+    height: 9vh;
+    background: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+.para{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.link{
+    color: red;
+
+
+}
+.third-nav{
+    width: 18vw;
+    height: 9vh;
+    background: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+.fifthparent{
+    margin-left: 40px;
+    margin-top: 59px;
+
+}
+.sixthparent{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    text-align: center;
+    padding-top: 190px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    
+
+}
+.zuriteam{
+    text-transform: capitalize;
+
+    
+}
+.links{
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.store{
+    font-weight: 300;
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+}
+.store a{
+    text-decoration: none;
+    color: red;
+}
+.blog{
+    font-weight: 300;
+    margin-top: 10px;
+    color: red;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+.blog a{
+    text-decoration: none;
+    color: red;
+}
+.contact{
+    font-size: 1.6rem;
+}
+.address{
+    margin-top: 4px;
+    font-size: 12px;
+}
+.hello{
+    text-transform: lowercase;
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.follow{
+    margin-bottom: 50px;
+}
+.followus{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    
+}
+
+#twit{
+    width:25px ;
+    height: 5vh;
+    color:#5791ab;
+}
+#zuriteam{
+    margin-top:30px ;
+    font-size: 12px; 
+}
+
+@media screen and (max-width:320px){
+    /* for mobile view */
+    body{
+        width:0%;
+        height: 100vh;
+        overflow:hidden; 
+    }
+    header{
+        text-align: center;
+    }
+    .para{
+        width: 90vw;
+        height: 50vh;
+        font-size: 12px;
+        margin-left: 2px;
+
+    }
+    .button{
+        align-items: center;
+
+    }
+    .btn1{
+        width: 85vw;
+        height: 10vh;
+        margin-left: 18px;
+
+    }
+    .btn2{
+        width: 85vw;
+        height: 10vh;
+        margin-left: 18px;
+
+    }
+
+    
+}
+
+ 
